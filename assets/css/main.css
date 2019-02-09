@@ -1361,6 +1361,58 @@
 
 			}
 
+
+
+/* Self */
+	#self {
+		padding: 4em 0 2em 0;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#self {
+				padding: 3em 0 1em 0;
+			}
+
+		}
+
+		#self .inner {
+			width: 90%;
+			max-width: 80em;
+			margin: 0 auto;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#self .inner {
+				width: 95%;
+			}
+
+		}
+		#self .more {
+			background-image: url("images/arrow.svg");
+			background-position: center 1.35em;
+			background-repeat: no-repeat;
+			background-size: auto;
+			border: 1px solid #fff;
+			border-radius: 100%;
+			color: rgba(255, 255, 255, 0.75);
+			display: block;
+			height: 4em;
+			text-indent: 4em;
+			overflow: hidden;
+			white-space: nowrap;
+			width: 4em;
+			z-index: 2;
+			margin: 0 auto 2em auto;
+		}
+		#self .more:hover {
+			background-color: rgba(255, 255, 255, 0.05);
+			border: 1px solid #fff;
+			color: #FFF;
+		}
+
+
 /* Footer */
 
 	#footer {

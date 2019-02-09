@@ -84,6 +84,14 @@
 
 			}
 
+		// self scroll.
+			var $self = $('#self');
+			if ($self.length > 0) {
+				$self.find('.more')
+					.addClass('scrolly');
+			}
+
+
 		// Scrolly.
 			$('.scrolly').scrolly();
 
